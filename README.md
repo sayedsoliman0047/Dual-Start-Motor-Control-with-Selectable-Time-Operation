@@ -1,6 +1,6 @@
 # Dual-Start-Motor-Control-with-Selectable-Time-Operation
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **motor control system** with **two separate Start buttons**, where each button operates the motor for a different time duration.
 
@@ -11,7 +11,7 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## ⚙️ Functional Requirements
+##  Functional Requirements
 
 * Press **Start 1**:
 
@@ -29,7 +29,7 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## 🔧 Components Used
+##  Components Used
 
 * Main Contactor (Motor)
 * Timer Relay t1 (10 seconds - ON delay)
@@ -40,9 +40,9 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## ⚡ Control Logic Explanation
+##  Control Logic Explanation
 
-### 🔹 Start 1 Mode (10 seconds)
+###  Start 1 Mode (10 seconds)
 
 1. Press Start 1
 2. Contactor is energized
@@ -51,7 +51,7 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-### 🔹 Start 2 Mode (5 seconds)
+###  Start 2 Mode (5 seconds)
 
 1. Press Start 2
 2. Contactor is energized
@@ -60,21 +60,21 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-### 🔹 Stop Function
+###  Stop Function
 
 * Press Stop at any time → motor stops immediately
 * Overrides both timers and any running mode
 
 ---
 
-## 🔐 Interlocking Logic
+##  Interlocking Logic
 
 * Start 1 and Start 2 cannot operate simultaneously
 * Each start path disables the other to prevent conflict
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 * Multi-start control
 * Time-based operation
@@ -84,7 +84,7 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## 📊 Operation Table
+##  Operation Table
 
 | Action  | Motor           |
 | ------- | --------------- |
@@ -94,19 +94,19 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## 📷 Circuit Diagram
+##  Circuit Diagram
 
 ![Solution](./solution.jpg)
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 
 ![video](./video.mp4)
 
 ---
 
-## 🚀 How to Operate
+##  How to Operate
 
 1. Power ON system
 2. Choose:
@@ -117,7 +117,7 @@ The system uses **classic control (relay logic)** with timers and interlocking.
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * Both timers are configured as ON delay
 * Proper interlocking is required between Start 1 and Start 2
